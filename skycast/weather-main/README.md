@@ -1,59 +1,43 @@
-# Weather App
+SkyCast is a simple and user-friendly weather web application that allows users to check real-time weather information for any city. I built this project to improve my skills in JavaScript, API integration, and responsive web design as part of my BCA learning journey.
 
-Welcome to the Weather App repository! This project is a web application that provides real-time weather updates for any location. It utilizes HTML, CSS, and JavaScript to deliver a user-friendly interface and fetches data using the OpenWeatherMap API.
+🚀 Features
 
-## Features
+Search weather by city name
 
-- **Live Weather Data**: Get up-to-date weather information for your current location or search for any city worldwide.
-- **5 Days Forecast**: You Can See your city 5 days forecast 
-- **Explore Section**: You Can See Many Random City Weather On Explore Section
-- **Add More Citys**: You Can Add More Citys 
+Displays temperature, humidity, wind speed, and weather condition
 
-### Technologies Used 
+Real-time weather data using API
 
-- **Frontend**: HTML, CSS, JAVASCRIPT
-- **API**: [OpenWeatherMap](https://openweathermap.org/)
-- **Icons**: [Fontawesome](https://fontawesome.com/)
+Clean and responsive UI
 
-### Additional information 
+Works on desktop and mobile
 
-- **To get name of the location (city name or area name) by using longitude and latitude** :- 
-https://openweathermap.org/api/geocoding-api
+🛠️ Technologies Used
 
-- **To get current location weather** :- 
-https://openweathermap.org/current
+HTML
 
-- **To get 5 day forecast** :-  https://openweathermap.org/forecast5
+CSS
 
-## Getting Started
+JavaScript
 
-To get a local copy up and running, follow these simple steps.
+Weather API
 
-### Prerequisites
+⚙️ How to Run the Project
 
-- A modern web browser.
-- An API key from [OpenWeatherMap Api](https://home.openweathermap.org/api_keys)
+Clone this repository:
 
-### Installation
+git clone https://github.com/MOTORCAR-T/skycast.git
 
-1. Clone the repository:
-```sh
- git clone https://github.com/kaushalsahu07/weather.git
-```
-2. Navigate to the project directory:
-```sh 
-cd weather
-```
-3. Change API key for all the js files
-```javascript
-let apiKey = "Your API Key";
-``` 
-4. Open `index.html` in your browser to view the project.
 
-### Usage
+Open the project folder.
 
-To use the Weather App, simply enter the name of the city in the search bar and press enter. The app will display the current weather conditions, including temperature, humidity, wind speed, and more.
+Add your API key inside the JavaScript files:
 
-`
-Note :- For Best Experience See This Website on 400*860 
-`
+let apiKey = "Your_API_Key";
+
+
+Open index.html in your browser to view the project.
+
+🎯 Purpose of the Project
+
+This project was created to practice frontend development and understand how real-world web applications use APIs and JavaScript to display dynamic data.

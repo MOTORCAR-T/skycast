@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links -->
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <div class="pc">
+      <!-- Nav Section -->
+      <nav>
+        <ul>
+          <li>
+            <a class="active" href="index.html"
+              ><i class="fa-solid fa-location-arrow"></i
+            ></a>
+          </li>
+          <li>
+            <a href="search.html"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </li>
+          <li>
+            <a href="world.html"><i class="fa-solid fa-earth-americas"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main Section -->
+      <div id="screen">
+        <!-- City Name -->
+        <div class="city-name">
+          <i class="fa-solid fa-map-pin"></i>
+          <h1 id="city-name">Loading...</h1>
+        </div>
+
+        <!-- Weather Icon -->
+        <div class="weather-icon-css">
+          <img class="weather-icon" src="img/sun.png" alt="Weather Icon" />
+        </div>
+
+        <!-- Weather Details -->
+        <div class="weather-description">
+          <div class="show-metric" id="metric">0°</div>
+          <div class="weather-details">
+            <div class="weather-main" id="weather-main">Clear</div>
+            <div class="h-f">
+              <div class="show-humidity">
+                H: <span id="humidity">--</span>
+              </div>
+              ||
+              <div class="show-humidity">
+                F: <span id="feels-like">--</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Today Forecast -->
+        <div class="forcasts-box">
+          <div class="today-forecast">
+            <h4>TODAY</h4>
+            <div class="weather-icon-today">
+              <img class="weather-icons" src="img/sun.png" alt="Today Icon" />
+            </div>
+            <div class="temp-today">
+              <span id="temp-min-today">--°</span>
+              <span>/ </span>
+              <span id="temp-max-today">--°</span>
+            </div>
+            <div class="weather-main-today" id="weather-main">Clear</div>
+          </div>
+
+          <!-- 6-Day Forecast -->
+          <div class="forecast">
+            <h5>6-DAYS FORECAST</h5>
+            <div id="forecast-box" class="forecast-box-grid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

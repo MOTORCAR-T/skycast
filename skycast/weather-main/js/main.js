@@ -1,4 +1,4 @@
-let apiKey = "e182a713bc0ba39d08e5ab325dc06bda";
+let apiKey = "YOUR_API_KEY";
 
 // Load weather based on user's location on index.html
 window.addEventListener("load", () => {
